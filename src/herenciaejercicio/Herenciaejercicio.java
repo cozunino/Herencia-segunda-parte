@@ -62,14 +62,33 @@ public class Herenciaejercicio {
        cantante1.nombre = "Pedro";
        cantante1.edad = 34;
        cantante1.tonalidad = "Baritono";
-       cantante1.ubicacion = "Segunda voz";
+       cantante1.experiencia = "5 años";
        
        cantante1.apodo();
        cantante1.num();
        cantante1.armarbanda();
        cantante1.tono();
-       cantante1.lugar();
+       cantante1.exp();
     
-    
+       System.out.println("");
+       System.out.println("COROS");
+       
+       
+       coros coros1 = new coros();
+       
+       coros1.nombre = "Juana";
+       coros1.edad = 29;
+       coros1.tonalidad = "Soprano";
+       coros1.experiencia = "3 años";
+       coros1.ubicacion = 2;
+       coros1.exclusividad = "total";
+ 
+       coros1.apodo();
+       coros1.num();
+       coros1.armarbanda();
+       coros1.tono();
+       coros1.exp();
+       coros1.lugar();
+       coros1.exc();
 }
 }

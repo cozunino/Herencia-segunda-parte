@@ -12,14 +12,14 @@ package herenciaejercicio;
 public class cantante extends Herenciaejercicio {
     
     String tonalidad;
-    String ubicacion;
+    String experiencia;
     
     public void tono (){
-        System.out.println("Tonalida: "+this.tonalidad);
+        System.out.println("Tonalidad: "+this.tonalidad);
     }
     
-    public void lugar (){
-        System.out.println("Ubiccion: "+this.ubicacion);
+    public void exp (){
+        System.out.println("Experiencia: "+this.experiencia);
     }
         
         
@@ -34,13 +34,13 @@ public class cantante extends Herenciaejercicio {
        cantante1.nombre = "Pedro";
        cantante1.edad = 34;
        cantante1.tonalidad = "Baritono";
-       cantante1.ubicacion = "Segunda voz";
+       cantante1.experiencia = "5 años";
        
        cantante1.apodo();
        cantante1.num();
        cantante1.armarbanda();
        cantante1.tono();
-       cantante1.lugar();
+       cantante1.exp();
     
 }
 }
